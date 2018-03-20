@@ -1,0 +1,64 @@
+.clearout {
+height:0px;
+clear:both;
+}
+
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+display:none;
+}
+
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:9999px;
+    margin:0px 0px 0px 0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+}
+
+.nbs-flexisel-inner {
+    overflow:hidden;
+    float:left;
+    width:100%;	
+}
+
+.nbs-flexisel-item {
+    float:left;
+    margin:0px;
+    padding:10px;
+    position:relative;
+	text-align: center;
+	width: 390px !important;
+}
+.nbs-flexisel-item img {
+    cursor: pointer;
+    position: relative;
+    margin: 50px 0px 0px 155px;    
+}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    width: 30px;
+    height: 30px; 
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.5;
+}
+
+.nbs-flexisel-nav-left {
+    left: 10px;
+    background: url(../../images/button-previous.png) no-repeat;
+}
+
+.nbs-flexisel-nav-right {
+    right: 5px;
+    background: url(../../images/button-next.png) no-repeat;
+}
+

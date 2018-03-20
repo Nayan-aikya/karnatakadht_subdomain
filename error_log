@@ -1,0 +1,27 @@
+[15-Jan-2018 05:03:01 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/digitalitsolnsco/public_html/txt/MysqliDb.php on line 282
+[15-Jan-2018 05:03:01 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect Error 1045: Access denied for user 'root'@'localhost' (using password: NO)' in /home/digitalitsolnsco/public_html/txt/MysqliDb.php:285
+Stack trace:
+#0 /home/digitalitsolnsco/public_html/txt/MysqliDb.php(364): MysqliDb->connect('default')
+#1 /home/digitalitsolnsco/public_html/txt/MysqliDb.php(1895): MysqliDb->mysqli()
+#2 /home/digitalitsolnsco/public_html/txt/MysqliDb.php(1506): MysqliDb->_prepareQuery()
+#3 /home/digitalitsolnsco/public_html/txt/MysqliDb.php(673): MysqliDb->_buildQuery(1)
+#4 /home/digitalitsolnsco/public_html/txt/MysqliDb.php(698): MysqliDb->get('users', 1, '*')
+#5 /home/digitalitsolnsco/public_html/txt/index.php(15): MysqliDb->getOne('users')
+#6 {main}
+  thrown in /home/digitalitsolnsco/public_html/txt/MysqliDb.php on line 285
+[15-Jan-2018 05:04:25 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/digitalitsolnsco/public_html/txt/MysqliDb.php on line 282
+[15-Jan-2018 05:04:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect Error 1045: Access denied for user 'root'@'localhost' (using password: NO)' in /home/digitalitsolnsco/public_html/txt/MysqliDb.php:285
+Stack trace:
+#0 /home/digitalitsolnsco/public_html/txt/MysqliDb.php(364): MysqliDb->connect('default')
+#1 /home/digitalitsolnsco/public_html/txt/MysqliDb.php(1895): MysqliDb->mysqli()
+#2 /home/digitalitsolnsco/public_html/txt/MysqliDb.php(1506): MysqliDb->_prepareQuery()
+#3 /home/digitalitsolnsco/public_html/txt/MysqliDb.php(673): MysqliDb->_buildQuery(1)
+#4 /home/digitalitsolnsco/public_html/txt/MysqliDb.php(698): MysqliDb->get('users', 1, '*')
+#5 /home/digitalitsolnsco/public_html/txt/index.php(15): MysqliDb->getOne('users')
+#6 {main}
+  thrown in /home/digitalitsolnsco/public_html/txt/MysqliDb.php on line 285
+[03-Feb-2018 13:10:18 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/digitalitsolnsco/public_html/txt/physical-financial-achievement.php on line 22
+[03-Feb-2018 13:10:22 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/digitalitsolnsco/public_html/txt/physical-financial-achievement.php on line 22
+[03-Feb-2018 13:10:32 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/digitalitsolnsco/public_html/txt/physical-financial-achievement.php on line 22
+[03-Feb-2018 13:10:44 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/digitalitsolnsco/public_html/txt/physical-financial-achievement.php on line 22
+[03-Feb-2018 18:54:21 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/digitalitsolnsco/public_html/txt/index.php:2) in /home/digitalitsolnsco/public_html/txt/index.php on line 3
